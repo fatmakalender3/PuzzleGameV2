@@ -1,0 +1,414 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1705688084845438, "dur":25733, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705688084871252, "dur":288, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705688084871563, "dur":2484, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705688084874048, "dur":587562, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705688085461611, "dur":159, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705688085461871, "dur":1073, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1705688084871702, "dur":2350, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705688084874053, "dur":11305, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705688084885406, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705688084885484, "dur":824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/TRON-V3/Documents/Unity Projects/puzzleGameV2/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1705688084886309, "dur":1768, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705688084890652, "dur":18372, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688084890542, "dur":18483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688084909340, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688084911461, "dur":19754, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688084911424, "dur":19792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688084931227, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688084932353, "dur":40225, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688084932319, "dur":40260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688084972614, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688084974325, "dur":40822, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688084974289, "dur":40859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688085015161, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688085016246, "dur":73719, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688085016213, "dur":73754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688085089998, "dur":2172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688085092297, "dur":14625, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688085092173, "dur":14750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688085106938, "dur":1848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688085108823, "dur":264074, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688085108788, "dur":264110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688085372911, "dur":3299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705688085376213, "dur":85400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705688084871729, "dur":2331, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705688084874062, "dur":722, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705688084874784, "dur":787, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705688084875571, "dur":633, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705688084876204, "dur":9160, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705688084885577, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705688084885750, "dur":4802, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705688084890611, "dur":19273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688084890554, "dur":19331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688084909898, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688084912500, "dur":16866, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688084912460, "dur":16907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688084929383, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688084930624, "dur":51674, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688084930555, "dur":51744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688084986995, "dur":77, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705688084982315, "dur":4767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688084987136, "dur":38628, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688084987084, "dur":38681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688085025789, "dur":14847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688085040699, "dur":42132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688085040642, "dur":42190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688085082876, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688085084072, "dur":164787, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688085084019, "dur":164841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688085248909, "dur":2427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688085251403, "dur":18347, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688085251340, "dur":18412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688085270895, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705688085269771, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688085271004, "dur":52864, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688085270960, "dur":52909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688085323895, "dur":151, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705688085324163, "dur":4151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688085328383, "dur":48008, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688085328317, "dur":48075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688085376429, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705688085377625, "dur":83983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705688084871721, "dur":2334, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705688084874057, "dur":730, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705688084874788, "dur":665, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705688084875454, "dur":932, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705688084876386, "dur":8986, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705688084885373, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1705688084885647, "dur":70, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1705688084885722, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705688084885783, "dur":4768, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705688084890598, "dur":33231, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688084890552, "dur":33279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688084923843, "dur":2487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688084926378, "dur":42240, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688084926332, "dur":42288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688084968685, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688084970989, "dur":14663, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688084970948, "dur":14705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688084985665, "dur":8874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688084994582, "dur":13794, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688084994541, "dur":13837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085008395, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085010443, "dur":77604, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085010409, "dur":77639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085088076, "dur":7819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085095933, "dur":21100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085095897, "dur":21137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085117089, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085118122, "dur":34353, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085118088, "dur":34388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085152489, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085156134, "dur":15390, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085156081, "dur":15444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085171541, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085173243, "dur":17284, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085173202, "dur":17327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085190548, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085191513, "dur":204867, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085191467, "dur":204915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085396394, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705688085397456, "dur":64167, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705688084871746, "dur":2318, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705688084874065, "dur":748, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705688084874814, "dur":604, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705688084875418, "dur":579, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705688084875998, "dur":676, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705688084876674, "dur":8700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705688084885732, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705688084885791, "dur":4756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705688084890606, "dur":177921, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705688084890548, "dur":177980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705688085068541, "dur":3106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705688085071690, "dur":23064, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705688085071650, "dur":23105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705688085094769, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705688085095909, "dur":18879, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705688085095872, "dur":18917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705688085114806, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705688085115835, "dur":166269, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705688085115798, "dur":166307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705688085282119, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705688085284134, "dur":37855, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705688085284092, "dur":37898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705688085322002, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705688085323476, "dur":108055, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705688085323432, "dur":108100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705688085431547, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705688085432687, "dur":28928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705688084871766, "dur":2301, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705688084874069, "dur":850, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705688084874919, "dur":621, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705688084875540, "dur":631, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705688084876172, "dur":612, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705688084876785, "dur":8585, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705688084885374, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1705688084885580, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705688084885722, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705688084885795, "dur":4749, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705688084890597, "dur":16910, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688084890546, "dur":16964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688084910295, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688084912220, "dur":111431, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688084912183, "dur":111469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688085023664, "dur":2282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688085025992, "dur":126316, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688085025957, "dur":126353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688085152328, "dur":3407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688085155787, "dur":117015, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688085155750, "dur":117053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688085272817, "dur":5227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688085278090, "dur":35069, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688085278047, "dur":35114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688085313176, "dur":3142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688085316396, "dur":14962, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688085316321, "dur":15039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688085331374, "dur":4462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688085335913, "dur":35356, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688085335839, "dur":35432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688085371284, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705688085372773, "dur":88843, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705688084871784, "dur":2287, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705688084874072, "dur":760, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705688084874833, "dur":1323, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705688084876157, "dur":672, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705688084876829, "dur":8537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705688084885535, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1705688084885756, "dur":4790, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705688084890605, "dur":27019, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688084890547, "dur":27079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688084917645, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688084918645, "dur":15514, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688084918600, "dur":15560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688084934173, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688084936390, "dur":36403, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688084936323, "dur":36471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688084972806, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688084974317, "dur":47726, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688084974283, "dur":47762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688085022058, "dur":5088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688085027191, "dur":224299, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688085027148, "dur":224343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688085251505, "dur":8509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688085260138, "dur":44036, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688085260017, "dur":44159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688085304190, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688085305640, "dur":15753, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688085305603, "dur":15792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688085321415, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688085322804, "dur":13173, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688085322772, "dur":13206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688085335991, "dur":1766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688085337821, "dur":116799, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688085337759, "dur":116863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688085454637, "dur":6139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705688085460779, "dur":833, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705688084871806, "dur":2268, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705688084874076, "dur":1059, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705688084875136, "dur":711, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705688084875848, "dur":803, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705688084876651, "dur":8718, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705688084885371, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1705688084885603, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705688084885653, "dur":89, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1705688084885742, "dur":4803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705688084890591, "dur":98830, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705688084890546, "dur":98876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705688084989454, "dur":1720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705688084991216, "dur":22714, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705688084991176, "dur":22756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705688085013945, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705688085015046, "dur":140737, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705688085015010, "dur":140774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705688085155796, "dur":80793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705688085236636, "dur":68011, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705688085236593, "dur":68054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705688085304660, "dur":17678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705688085322380, "dur":13623, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705688085322340, "dur":13664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705688085336015, "dur":2416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705688085338496, "dur":15791, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705688085338432, "dur":15856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705688085354334, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705688085355347, "dur":106270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705688084871835, "dur":2243, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705688084874080, "dur":832, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705688084874912, "dur":834, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705688084875746, "dur":635, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705688084876382, "dur":8981, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705688084885443, "dur":640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1705688084886144, "dur":4409, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705688084890615, "dur":33956, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688084890554, "dur":34018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688084924615, "dur":8158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688084932812, "dur":13268, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688084932775, "dur":13307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688084946090, "dur":74, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705688084946170, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688084947302, "dur":25987, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688084947254, "dur":26037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688084973297, "dur":490, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705688084973789, "dur":5318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688084979159, "dur":31362, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688084979110, "dur":31412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688085010543, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688085011783, "dur":54259, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688085011729, "dur":54314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688085066072, "dur":8470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688085074577, "dur":214262, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688085074544, "dur":214296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688085288847, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705688085288910, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688085290280, "dur":43125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688085290233, "dur":43173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688085333417, "dur":56, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705688085333476, "dur":3224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688085336743, "dur":53727, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688085336701, "dur":53770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688085390483, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705688085392223, "dur":69397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1705688084871865, "dur":2217, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1705688084874084, "dur":788, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1705688084874872, "dur":803, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1705688084875676, "dur":838, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1705688084876514, "dur":8853, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1705688084885454, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1705688084885668, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1705688084885777, "dur":4773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1705688084890601, "dur":43438, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688084890550, "dur":43490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688084934052, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688084936767, "dur":45708, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688084936692, "dur":45785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688084982489, "dur":1620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688084984156, "dur":15474, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688084984112, "dur":15520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688084999662, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688085000831, "dur":20077, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688085000767, "dur":20143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688085020945, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688085022284, "dur":96510, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688085022247, "dur":96548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688085118800, "dur":257, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1705688085119060, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688085120603, "dur":156647, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688085120569, "dur":156683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688085277264, "dur":2136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688085279450, "dur":50245, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688085279402, "dur":50294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688085329703, "dur":59, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1705688085329765, "dur":7751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688085337569, "dur":32183, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688085337518, "dur":32236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688085369899, "dur":2695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1705688085372596, "dur":89015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1705688084871890, "dur":2196, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1705688084874088, "dur":732, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1705688084874820, "dur":801, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1705688084875622, "dur":665, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1705688084876288, "dur":9090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1705688084885379, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1705688084885503, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688084885556, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1705688084885736, "dur":4813, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1705688084890605, "dur":17087, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688084890549, "dur":17145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688084918824, "dur":3443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688084922313, "dur":15242, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688084922270, "dur":15286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688084937568, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688084939190, "dur":89948, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688084939143, "dur":89996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085029151, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085030296, "dur":14844, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085030259, "dur":14882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085045155, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085046642, "dur":13487, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085046597, "dur":13533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085060144, "dur":890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085061070, "dur":14099, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085061036, "dur":14134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085075183, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085076213, "dur":133640, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085076178, "dur":133677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085209873, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085211049, "dur":66073, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085210972, "dur":66152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085277141, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085278860, "dur":111488, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085278823, "dur":111527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085390367, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1705688085391997, "dur":69629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1705688084871917, "dur":2189, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1705688084874108, "dur":845, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1705688084874953, "dur":830, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1705688084875784, "dur":723, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1705688084876508, "dur":8872, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1705688084885381, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1705688084885436, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1705688084885527, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688084885593, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1705688084885710, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1705688084885782, "dur":4761, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1705688084890592, "dur":16917, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688084890545, "dur":16965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688084908537, "dur":3018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688084911590, "dur":57325, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688084911556, "dur":57360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688084968930, "dur":2208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688084971170, "dur":14472, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688084971139, "dur":14504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688084985656, "dur":4932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688084990653, "dur":95114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688084990591, "dur":95177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688085085781, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688085086864, "dur":35016, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688085086820, "dur":35061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688085121912, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688085123428, "dur":37323, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688085123388, "dur":37364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688085160765, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688085161812, "dur":100387, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688085161777, "dur":100424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688085262251, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688085263825, "dur":35650, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688085263788, "dur":35688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688085299493, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688085300631, "dur":36022, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688085300595, "dur":36059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688085336667, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688085337991, "dur":122361, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688085337958, "dur":122396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1705688085460365, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1705688084871947, "dur":2163, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1705688084874111, "dur":713, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1705688084874825, "dur":1219, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1705688084876044, "dur":704, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1705688084876748, "dur":8627, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1705688084885377, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1705688084885491, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1705688084885652, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1705688084885744, "dur":4833, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1705688084890627, "dur":39776, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1705688084890577, "dur":39827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1705688084930418, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1705688084932066, "dur":40350, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1705688084931986, "dur":40431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1705688084972430, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1705688084973928, "dur":35070, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1705688084973889, "dur":35110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1705688085009013, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1705688085010598, "dur":44407, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1705688085010546, "dur":44460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1705688085055021, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1705688085056050, "dur":49353, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1705688085056013, "dur":49391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1705688085105413, "dur":69, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1705688085105485, "dur":4147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1705688085109674, "dur":258625, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1705688085109634, "dur":258667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/puzzleGameV1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1705688085368349, "dur":3278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/puzzleGameV1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1705688085371630, "dur":89979, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705688085464493, "dur":1096, "ph":"X", "name": "ProfilerWriteOutput" }
+,

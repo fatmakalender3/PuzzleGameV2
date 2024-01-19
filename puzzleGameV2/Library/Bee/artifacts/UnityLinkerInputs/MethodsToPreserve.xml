@@ -1,0 +1,18 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="ButtonFunc">
+			<method name="LoadLevel1"/>
+			<method name="OnClickReturn"/>
+			<method name="OnRightClickArrow"/>
+			<method name="OnRightLeftArrow"/>
+			<method name="QuitGame"/>
+		</type>
+		<type fullname="DialogueManager">
+			<method name="DisplayNextDialogueLine"/>
+		</type>
+		<type fullname="DisplayImage">
+			<method name="ChangeWalls"/>
+			<method name="ChangeWalls"/>
+		</type>
+	</assembly>
+</linker>
