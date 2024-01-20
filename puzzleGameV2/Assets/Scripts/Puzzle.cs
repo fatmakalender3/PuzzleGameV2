@@ -75,16 +75,13 @@ public class Puzzle : MonoBehaviour
             this.gameObject.SetActive(false);
         }
 
-        Debug.Log("HideDisplay function called");
-
-        
-        if (Input.GetMouseButtonDown(0) && !UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
+        else if (Input.GetMouseButtonDown(0) && !UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
         {
-            this.gameObject.SetActive(true);
+            this.gameObject.SetActive(false);
         }
 
+        Debug.Log("HideDisplay function called");
 
-       
     }
 
     

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 
 public class DialogueManager : MonoBehaviour
 {
@@ -94,5 +96,6 @@ public class DialogueManager : MonoBehaviour
         GetComponent<Animator>().SetBool("EndDialogue", true);
         isDialogueActive = false;
         animator.Play("Exit");
+        SceneManager.LoadScene(3);
     }
 }
